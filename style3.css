@@ -1,0 +1,33 @@
+body {
+    background-color: #2E6467;
+  }
+  #logo img{
+    float: left;
+    width: 12%;
+   
+  }
+  
+
+  input[type=number] {  
+    margin-top: 1%;
+  }
+
+  input[type=email]{
+  
+    margin-top: 1%;
+  }
+button{
+
+    margin-top: 1%;
+}
+#register{
+
+    margin-top: 1%;  
+}
+
+@media screen and (max-width:430px){
+  
+}
+@media screen and (max-width:1440px) {
+  
+}

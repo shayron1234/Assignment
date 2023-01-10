@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+</head>
+<header>
+    <div class="topnav">
+        <div id="logo">
+        <img src="images/logo2.png" alt="simplegaming">
+    </div>
+    
+        
+        <a class="active" href="games.html">GAMES</a>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="aboutme.html">ABOUT ME</a>
+        <a href="simplegaming.html">HOME</a>
+      </div>
+    </header>
+    
+<body>
+    
+
+<img id="myImg" src="images/6.jpg" alt="Keno" style="width:100%;max-width:300px;margin-left: 70px;">
+  <img id="myImg2" src="images/9.jpg" alt="Scratch Card" style="width:100%;max-width:340px; margin-left: 155px;">
+  <img id="myImg3" src="images/5.jpg" alt="Bingo" style="width:100%;max-width:300px;margin-left: 186px;">
+  <img id="myImg4" src="images/8.jpg" alt="Baccarat" style="width:100%;max-width:318px; margin-left: 59px;">
+  <img id="myImg5" src="images/3.jpg" alt="Football" style="width:100%;max-width:313px ;margin-left: 163px; margin-top: 30px;">
+  <img id="myImg6" src="images/4.jpg" alt="Basketball" style="width:100%;max-width:321px; margin-left: 185px;">
+  <img id="myImg7" src="images/7.jpg" alt="Blackjack" style="width:100%;max-width:294px;margin-bottom:-2% ;margin-left: 66px;">
+  <img id="myImg8" src="images/2.jpg" alt="Roulette" style="width:100%;max-width:316px; margin-left: 177px; margin-bottom: 21px;">
+  <img id="myImg9" src="images/1.jpg" alt="Slot" style="width:100%;max-width:317px;margin-left: 196px; margin-top: 12px;">
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" alt="modal-img" id="img01">
+    <div id="caption"></div>
+  </div>
+</body>
+<div class="footer">
+  <footer>
+      <p>Shayron spiteri</p>
+  </footer>
+  </div>
+</html>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg6");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg7");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg8");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg9");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
+  

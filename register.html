@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style3.css">
+    <script>
+        function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            let y = document.forms["myForm"]["num"].value;
+            let z = document.forms["myForm"]["email"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                if (y == "") {
+                    alert("Phone number must be filled out");
+                    if (z == "") {
+                        alert("E-mail must be filled out");
+                    }
+                    return false;
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body id="registerpg">
+    <h1>Register Form</h1>
+    <div>
+        <form id="register" name="myForm" action="./Home.html" onsubmit="return validateForm()" method="post">
+            <div id="Name">
+                Name: <input type="text" placeholder="Enter full name" name="fname">
+                <br>
+                </div>
+                <div id="phone">
+                Phone no:<input type="number" placeholder="Enter phone number" name="num">
+                </div>
+                <div id="email">
+                 Email: <input type="email" placeholder="Enter E-mail" name="email">
+            </div>
+            <input id="submit" type="submit" value="Submit">
+            <p><a href="simplegaming.html">Go back</a></p>
+        
+        </form>
+    </div>
+</body>
+
+</html>
